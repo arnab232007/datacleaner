@@ -45,7 +45,7 @@ cd backend
 python app.py
 ```
 
-Open datacleaner-production.up.railway.app in your browser.
+Open [datacleaner-production.up.railway.app](https://datacleaner-production.up.railway.app/) in your browser.
 
 ---
 
@@ -60,7 +60,7 @@ docker compose --profile prod up --build
 ```
 
 The app is available at http://localhost (port 80) when using the prod profile,
-or datacleaner-production.up.railway.app for the dev profile.
+or [datacleaner-production.up.railway.app](https://datacleaner-production.up.railway.app/) for the dev profile.
 
 ---
 
