@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  # ── Flask backend + frontend ───────────────────────────────────
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: datacleaner_app
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    env_file: .env
+    volumes:
+      # Persist uploads and outputs outside the container
+      - uploads_data:/app/backend/uploads
+      - cleaned_data:/app/backend/cleaned_files
+      - reports_data:/app/backend/reports
+      - logs_data:/app/backend/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ── Nginx reverse proxy (optional but recommended for prod) ────
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: datacleaner_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - app
+    profiles:
+      - prod   # only started with: docker compose --profile prod up
+
+volumes:
+  uploads_data:
+  cleaned_data:
+  reports_data:
+  logs_data:

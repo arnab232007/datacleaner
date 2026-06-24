@@ -1,0 +1,16 @@
+studentid,name,age,gender,email,marks,joindate
+1,amit,20.0,m,amit@gmail.com,85.0,2025-01-10
+2,sara,19.0,f,sara@gmail.com,92.0,2025-10-01
+3,rahul,20.5,male,rahulgmail.com,83.0,2025-01-11
+4,priya,18.5,f,priya@gmail.com,105.0,
+5,riya,21.0,f,priya@gmail.com,76.0,2025-01-18
+5,john,21.0,m,john@gmail.com,76.0,2025-01-12
+6,neha,20.5,f,neha@gmail,88.0,2025-01-15
+7,arjun,22.0,f,arjun@gmail.com,83.0,2025-01-15
+8,karan,22.5,m,karan@gmail.com,67.0,2025-01-18
+9,meera,20.0,f,meera@gmail.com,91.0,2025-01-18
+10,riya,19.0,female,riya@gmail.com,89.0,2025-01-19
+11,kabir,20.5,m,priya@gmail.com,72.0,
+12,ananya,20.0,f,ananya@gmail.com,57.25,2025-01-20
+13,vikram,22.5,m,vikram@gmail.com,83.0,2025-01-21
+14,pooja,21.0,f,pooja@gmail.com,83.0,2025-01-21

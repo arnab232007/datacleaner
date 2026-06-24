@@ -1,0 +1,39 @@
+[2026-06-25 00:39:37] INFO _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.98.119.42:5000
+[2026-06-25 00:39:37] INFO _internal: [33mPress CTRL+C to quit[0m
+[2026-06-25 00:39:37] INFO _internal:  * Restarting with stat
+[2026-06-25 00:39:38] WARNING _internal:  * Debugger is active!
+[2026-06-25 00:39:38] INFO _internal:  * Debugger PIN: 157-217-949
+[2026-06-25 00:43:51] INFO _internal:  * Detected change in 'C:\\Users\\arnab\\Downloads\\datacleaner_final\\backend\\utils\\logger.py', reloading
+[2026-06-25 00:43:52] INFO _internal:  * Restarting with stat
+[2026-06-25 00:43:54] INFO logger: Logger initialised  C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:43:54] INFO logger: Logger initialised  C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:43:54] WARNING _internal:  * Debugger is active!
+[2026-06-25 00:43:54] INFO _internal:  * Debugger PIN: 157-217-949
+[2026-06-25 00:43:57] INFO _internal:  * Detected change in 'C:\\Users\\arnab\\Downloads\\datacleaner_final\\backend\\utils\\logger.py', reloading
+[2026-06-25 00:43:57] INFO _internal:  * Restarting with stat
+[2026-06-25 00:43:59] INFO logger: Logger initialised -> C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:43:59] INFO logger: Logger initialised -> C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:43:59] WARNING _internal:  * Debugger is active!
+[2026-06-25 00:43:59] INFO _internal:  * Debugger PIN: 157-217-949
+[2026-06-25 00:44:10] INFO _internal:  * Detected change in 'C:\\Users\\arnab\\Downloads\\datacleaner_final\\backend\\utils\\logger.py', reloading
+[2026-06-25 00:44:11] INFO _internal:  * Restarting with stat
+[2026-06-25 00:44:12] INFO logger: Logger initialised -> C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:44:12] INFO logger: Logger initialised -> C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:44:13] WARNING _internal:  * Debugger is active!
+[2026-06-25 00:44:13] INFO _internal:  * Debugger PIN: 157-217-949
+[2026-06-25 00:44:23] INFO _internal:  * Detected change in 'C:\\Users\\arnab\\Downloads\\datacleaner_final\\backend\\utils\\logger.py', reloading
+[2026-06-25 00:44:23] INFO _internal:  * Restarting with stat
+[2026-06-25 00:44:25] INFO logger: Logger initialised -> C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:44:25] INFO logger: Logger initialised -> C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:44:25] WARNING _internal:  * Debugger is active!
+[2026-06-25 00:44:25] INFO _internal:  * Debugger PIN: 157-217-949
+[2026-06-25 00:44:27] INFO _internal:  * Detected change in 'C:\\Users\\arnab\\Downloads\\datacleaner_final\\backend\\utils\\logger.py', reloading
+[2026-06-25 00:44:27] INFO _internal:  * Restarting with stat
+[2026-06-25 00:44:29] INFO logger: Logger initialised -> C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:44:29] INFO logger: Logger initialised -> C:\Users\arnab\Downloads\datacleaner_final\backend\logs\app.log
+[2026-06-25 00:44:29] WARNING _internal:  * Debugger is active!
+[2026-06-25 00:44:29] INFO _internal:  * Debugger PIN: 157-217-949
+[2026-06-25 00:44:43] INFO _internal:  * Detected change in 'C:\\Users\\arnab\\Downloads\\datacleaner_final\\backend\\utils\\logger.py', reloading

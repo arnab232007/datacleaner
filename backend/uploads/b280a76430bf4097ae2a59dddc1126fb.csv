@@ -1,0 +1,16 @@
+StudentID,Name,Age,Gender,Email,Marks,JoinDate
+1,Amit,20,M,amit@gmail.com,85,2025-01-10
+2,Sara ,19,F,sara@gmail.com,92,10/01/2025
+3,Rahul,,Male,rahulgmail.com,A,2025/01/11
+4,Priya,-2,F,priya@gmail.com,105,2025-13-01
+5,,21,F,priya@gmail.com,76,
+5,John,21,M,john@gmail.com,76,2025-01-12
+6,Neha,twenty,F,neha@gmail,88,2025-01-15
+7,Arjun,22,,arjun@gmail.com,,15 Jan 2025
+8,Karan,200,M,karan@gmail.com,67,2025-01-18
+9,Meera,20,F,MEERA@GMAIL.COM,91,2025-01-18
+10,  Riya,19,Female,riya@gmail.com,89,2025-01-19
+11,Kabir,,M,,72,not available
+12,Ananya,20,F,ananya@gmail.com,-5,2025-01-20
+13,Vikram,23,m,vikram@gmail.com,83,2025-01-21
+14,Pooja,21,f,pooja@gmail.com,83,2025-01-21

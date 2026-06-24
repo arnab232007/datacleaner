@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Data Quality Report — 2516557e</title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,sans-serif;background:#0f1117;color:#e2e8f0;padding:24px}
+  h1{font-size:1.6rem;font-weight:600;margin-bottom:4px}
+  .sub{color:#94a3b8;font-size:.875rem;margin-bottom:24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:28px}
+  .card{background:#1e2130;border-radius:10px;padding:16px;border:1px solid #2d3352}
+  .card .val{font-size:2rem;font-weight:700;color:#7c8dff;line-height:1.1}
+  .card .lbl{font-size:.75rem;color:#94a3b8;margin-top:4px}
+  .section{background:#1e2130;border-radius:10px;padding:20px;margin-bottom:20px;border:1px solid #2d3352}
+  .section h2{font-size:1rem;font-weight:600;margin-bottom:14px;color:#c7d2fe}
+  ul.audit{padding-left:18px;color:#94a3b8;font-size:.8125rem;line-height:2}
+  #chart1,#chart2{height:320px}
+</style>
+</head>
+<body>
+<h1>Data Quality Report</h1>
+<p class="sub">Job 2516557e &nbsp;·&nbsp; Generated 2026-06-25 00:45</p>
+
+<div class="grid">
+  <div class="card"><div class="val">15</div><div class="lbl">Original rows</div></div>
+  <div class="card"><div class="val">15</div><div class="lbl">Cleaned rows</div></div>
+  <div class="card"><div class="val">0</div><div class="lbl">Rows removed</div></div>
+  <div class="card"><div class="val">9</div><div class="lbl">Nulls fixed</div></div>
+  <div class="card"><div class="val">0</div><div class="lbl">Duplicates removed</div></div>
+  <div class="card"><div class="val">4</div><div class="lbl">Outliers handled</div></div>
+</div>
+
+<div class="section"><h2>Missing values — before vs after (top 20 columns)</h2><div id="chart1"></div></div>
+<div class="section"><h2>Row count before vs after</h2><div id="chart2"></div></div>
+<div class="section"><h2>Cleaning actions log</h2><ul class="audit"><li>Renamed 7 column(s): {'StudentID': 'studentid', 'Name': 'name', 'Age': 'age', 'Gender': 'gender', 'Email': 'email', 'Marks': 'marks', 'JoinDate': 'joindate'}</li><li>'age': converted str → numeric (12 values).</li><li>'marks': converted str → numeric (13 values).</li><li>'name': filled 1 nulls with mode ('  Riya')</li><li>'age': filled 3 nulls with median (20.5)</li><li>'gender': filled 1 nulls with mode ('F')</li><li>'email': filled 1 nulls with mode ('priya@gmail.com')</li><li>'marks': filled 2 nulls with median (83)</li><li>'joindate': filled 1 nulls with mode ('2025-01-18')</li><li>No duplicate rows found.</li><li>'age': capped 3 outlier(s) to [18.5, 22.5].</li><li>'marks': capped 1 outlier(s) to [57.25, 107.2].</li><li>'name': standardised text in 15 cell(s).</li><li>'gender': standardised text in 13 cell(s).</li><li>'email': standardised text in 1 cell(s).</li><li>'joindate': standardised text in 1 cell(s).</li><li>'joindate': parsed and formatted as ISO YYYY-MM-DD.</li></ul></div>
+
+<script>
+Plotly.newPlot('chart1',
+  [{name:'Before',type:'bar',x:["StudentID", "Name", "Age", "Gender", "Email", "Marks", "JoinDate"],y:[0, 1, 2, 1, 1, 1, 1],marker:{color:'#e05260'}},
+   {name:'After', type:'bar',x:["StudentID", "Name", "Age", "Gender", "Email", "Marks", "JoinDate"],y:[0, 0, 0, 0, 0, 0, 0], marker:{color:'#22c55e'}}],
+  {barmode:'group',paper_bgcolor:'transparent',plot_bgcolor:'transparent',
+    font:{color:'#e2e8f0',size:11},margin:{t:10,b:60,l:40,r:10},
+    xaxis:{tickangle:-45},yaxis:{gridcolor:'#2d3352'}},
+  {responsive:true,displayModeBar:false});
+
+Plotly.newPlot('chart2',
+  [{type:'bar',x:['Original','Cleaned'],y:[15,15],
+     marker:{color:['#7c8dff','#22c55e']}}],
+  {paper_bgcolor:'transparent',plot_bgcolor:'transparent',
+    font:{color:'#e2e8f0',size:12},margin:{t:10,b:40,l:40,r:10},
+    yaxis:{gridcolor:'#2d3352'}},
+  {responsive:true,displayModeBar:false});
+</script>
+</body></html>
