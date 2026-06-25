@@ -1,6 +1,6 @@
 # DataCleaner 🧹
 
-Industry-grade data cleaning web application. Upload a CSV/XLS/XLSX file, run a
+Industry grade data cleaning web application. Upload a CSV/XLS/XLSX file, run a
 full automated cleaning pipeline, download the result as CSV or XLSX, and get a
 PDF + interactive HTML quality report .
 
